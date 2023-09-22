@@ -1,0 +1,19 @@
+div {
+ bottom:0px;
+  position: relative;
+  animation: myfirst 5s linear 3s infinite ;
+  z-index: 99;
+}
+img{
+    width:150px;
+    height:150px;
+}
+
+@keyframes myfirst {
+  0%   { left:0px;top:0px; }
+    50%  { left:380px; top: -30px;}
+  100%  { left:1200px; top: -90px;}
+}
+/* 0%   { right:0px;top:0px; }
+    50%  { right:-280px; top: -30px;}
+  100%  { right:-1200px; top: -90px;}*/
