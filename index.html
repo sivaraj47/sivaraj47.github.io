@@ -1,3 +1,35 @@
-<div>
+<html>
+  <head>
+    <title>Animation Fly</title>
+    </title>
+    <style>
+      div {
+ bottom:0px;
+  position: relative;
+  animation: myfirst 5s linear 3s infinite ;
+  z-index: 99;
+}
+img{
+    width:150px;
+    height:150px;
+}
+
+@keyframes myfirst {
+  0%   { left:0px;top:0px; }
+    50%  { left:380px; top: -30px;}
+  100%  { left:1200px; top: -90px;}
+}
+/* 0%   { right:0px;top:0px; }
+    50%  { right:-280px; top: -30px;}
+  100%  { right:-1200px; top: -90px;}*/
+
+    </style>
+  </head>
+  <body>
+    <div>
 <img src="https://images.vexels.com/media/users/3/145795/isolated/preview/05cd33059a006bf49006097af4ccba98-plane-in-flight-by-vexels.png">
 </div>
+  </body>
+</html>
+
+
