@@ -1,19 +1,86 @@
-div {
- bottom:0px;
-  position: relative;
-  animation: myfirst 5s linear 3s infinite ;
-  z-index: 99;
+.banner{
+  background:url(https://images.pexels.com/photos/7953538/pexels-photo-7953538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size:cover;
+  background-repaet:no-repeat;
+  background-position:center;
+    -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px); 
+  position:relative;
 }
-img{
-    width:150px;
-    height:150px;
+.banner .banner-content h2{
+  font-size: 100px;
+    line-height: 100px;
+  color:#fff;
 }
-
-@keyframes myfirst {
-  0%   { left:0px;top:0px; }
-    50%  { left:380px; top: -30px;}
-  100%  { left:1200px; top: -90px;}
+.banner .banner-content p{
+  font-size:17px;
+  color:#fff;
 }
-/* 0%   { right:0px;top:0px; }
-    50%  { right:-280px; top: -30px;}
-  100%  { right:-1200px; top: -90px;}*/
+.desc{
+  font-size:20px;
+}
+.prf{
+  position:absolute;
+  right:20px;
+  bottom:0;  
+}
+.service {
+    position: relative;
+}
+.section-sm {
+    padding: 80px 0px 65px 0px;
+}
+.bgsy {
+  background:#cae6ff !important;
+}
+.bgs{
+  padding:80px 0px;
+  position:relative;
+}
+.lh {
+    line-height: 38px;
+}
+.banner-content{
+  padding:200px 0px 0px 0px;
+}
+.banner .banner-img{
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    right: 17%;
+}
+.navbarScroll.navbarDark {
+ background:#fe2012 !important;  
+  color:#ffff !important;
+}
+.about-img::before{
+    position: absolute;
+    content: "";
+    background:#fddf;
+    width: 29%;
+    height: 50%;
+    left: 7%;
+    top: 80px;
+  z-index:-1;
+}
+.service-item{
+  padding:0px 30px;
+}
+h3{
+  font-size:30px;
+}
+.fixed-tops{
+  margin-top:50px;
+}
+@media(max-width:768px){
+  .about-img::before{
+    position: absolute;
+    content: "";
+    background:#fddf;
+    width: 85%;
+    height: 30%;
+    left: 7%;
+    top: 80px;
+  z-index:-1;
+}
+}
